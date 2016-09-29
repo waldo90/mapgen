@@ -13,24 +13,6 @@
 @synthesize width;
 @synthesize height;
 
--(id)initWithWidth:(int)_width height:(int)_height
-{
-    NSLog(@"initWithWidth:height is deprecated :)");
-    if ((self = [super init])) {
-        width = _width;
-        height =_height;
-
-        map = [[NSMutableArray alloc] initWithCapacity:width];
-        for (int i=0; i < width; i++) {
-            NSMutableArray* row = [[NSMutableArray alloc] initWithCapacity:height];
-            [map addObject:row];
-            for (int j=0; j < height; j++) {
-                [row addObject:[[MGCell alloc] init]];
-            }
-        }
-    }
-    return self;
-}
 
 -(id)initWithSize:(CGSize)size
 {
@@ -70,9 +52,7 @@
 
 -(void)pickRandomCellAndMarkItVisited
 {
-    //int locationX = arc4random() % (width - 1);
     int locationX = arc4random_uniform(width);
-    //int locationY = arc4random() % (height - 1);
     int locationY = arc4random_uniform(height);
 
     MGCell* cell = [self cellAtX:locationX Y:locationY];

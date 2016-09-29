@@ -21,9 +21,6 @@
 @property (readonly) int width;
 @property (readonly) int height;
 
-//deprecated :)
--(id)initWithWidth:(int)width height:(int)height;
-// in favour of
 -(id)initWithSize:(CGSize)size;
 
 -(void)markCellsUnvisited;

@@ -21,5 +21,4 @@
 @property (nonatomic, retain) MGMap* map;
 @property (readwrite) CGPoint point;
 
-//- (void)updateTransform;
 @end
