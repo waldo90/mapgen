@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "MGMap.h"
-#import "MGCell.h"
-#import "MGRendererBase.h"
+@class MGMap;
+@class MGRendererBase;
 
 @interface MGMapView : UIView
 {

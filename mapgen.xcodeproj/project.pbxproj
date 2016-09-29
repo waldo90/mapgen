@@ -197,10 +197,10 @@
 		438EBB8D156ED2BA005DCBA5 /* Renderers */ = {
 			isa = PBXGroup;
 			children = (
-				438EBB8F156ED2EF005DCBA5 /* MGRendererDebug.h */,
-				438EBB90156ED2EF005DCBA5 /* MGRendererDebug.m */,
 				438EBB92156ED35B005DCBA5 /* MGRendererBase.h */,
 				438EBB93156ED35B005DCBA5 /* MGRendererBase.m */,
+				438EBB8F156ED2EF005DCBA5 /* MGRendererDebug.h */,
+				438EBB90156ED2EF005DCBA5 /* MGRendererDebug.m */,
 				431494B91576C88100CE697E /* MGRendererMap.h */,
 				431494BA1576C88100CE697E /* MGRendererMap.m */,
 			);

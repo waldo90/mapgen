@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MGMap.h"
-#import "MGRoom.h"
-#import "MGCell.h"
+@class MGMap;
 
 @interface MGGenerator : NSObject
 {

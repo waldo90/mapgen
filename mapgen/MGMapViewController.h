@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGMap.h"
+
 
 @interface MGMapViewController : UIViewController <UIGestureRecognizerDelegate>
 {

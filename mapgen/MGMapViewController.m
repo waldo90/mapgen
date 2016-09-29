@@ -9,9 +9,8 @@
 #import "MGMapViewController.h"
 #import "MGMapView.h"
 #import "MGGenerator.h"
-
-#import "MGRendererDebug.h"
 #import "MGRendererMap.h"
+
 
 @interface MGMapViewController ()
 

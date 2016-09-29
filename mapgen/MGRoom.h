@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MGCell.h"
 
 @interface MGRoom : NSObject
 {

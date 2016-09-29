@@ -7,6 +7,8 @@
 //
 
 #import "MGRendererMap.h"
+#import "MGCell.h"
+#import "MGMap.h"
 
 @implementation MGRendererMap
 

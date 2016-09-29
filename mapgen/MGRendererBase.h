@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGMap.h"
+@class MGMap;
+
 @interface MGRendererBase : NSObject
 {
     MGMap* map;

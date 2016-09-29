@@ -6,8 +6,9 @@
 //  Copyright (c) 2012 Pat Smith. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
-#import "MGCell.h"
+@class MGCell;
 
 @interface MGMap : NSObject
 {

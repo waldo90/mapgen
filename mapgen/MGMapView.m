@@ -6,7 +6,10 @@
 //  Copyright (c) 2012 Pat Smith. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
 #import "MGMapView.h"
+#import "MGRendererBase.h"
+
 
 @implementation MGMapView
 @synthesize renderer;

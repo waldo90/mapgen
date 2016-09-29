@@ -8,6 +8,9 @@
 
 #import "MGGenerator.h"
 #import "MGPoint.h"
+#import "MGCell.h"
+#import "MGRoom.h"
+#import "MGMap.h"
 
 
 @implementation MGGenerator

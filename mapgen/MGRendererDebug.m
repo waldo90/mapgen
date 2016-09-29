@@ -7,6 +7,8 @@
 //
 
 #import "MGRendererDebug.h"
+#import "MGCell.h"
+#import "MGMap.h"
 
 @implementation MGRendererDebug
 
